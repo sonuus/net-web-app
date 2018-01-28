@@ -19,7 +19,7 @@ namespace AspNetCoreWebApplication.Controllers
                 sb.Append(",");
             }
             
-            ViewData["Message"] = sb.ToString();;
+            ViewData["Message"] = "CCCCCCCCCCCCCCCCCCC" ; // sb.ToString();;
             return View();
         }
 

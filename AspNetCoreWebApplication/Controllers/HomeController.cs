@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using System.Text;
 
 namespace AspNetCoreWebApplication.Controllers
 {
@@ -10,7 +11,15 @@ namespace AspNetCoreWebApplication.Controllers
     {
         public IActionResult Index()
         {
-            ViewData["Message"] = "You just created a ASP.Net Core web application!";
+            System.Text.StringBuilder sb = new System.Text.StringBuilder();
+            
+            for (int j = 0; j < 100; j++)
+            {
+                sb.Append(j);
+                sb.Append(",");
+            }
+            
+            ViewData["Message"] = sb.ToString();;
             return View();
         }
 

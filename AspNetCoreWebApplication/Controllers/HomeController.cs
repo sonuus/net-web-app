@@ -20,6 +20,7 @@ namespace AspNetCoreWebApplication.Controllers
             }
             
             ViewData["Message"] = "CCCCCCCCCCCCCCCCCCC" ; // sb.ToString();;
+            TempData["piValue"] = 3.14;
             return View();
         }
 

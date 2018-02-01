@@ -24,7 +24,7 @@ namespace AspNetCoreWebApplication.Controllers
             DateTime dateTime1 = DateTime.Now;
 
 
-            test();
+           // test();
 
             ViewData["Message"] = "CCCCCCCCCCCCCCCCCCC" ; // sb.ToString();;
             TempData["piValue"] = 3.14;

@@ -19,8 +19,10 @@ namespace AspNetCoreWebApplication.Controllers
             try
             {
 
+              //  AWS.Logger.AspNetCore.AWSLogger log = new AWS.Logger.AspNetCore.AWSLogger();
 
-            
+
+
             //var dimension = new Dimension
             //{
             //    Name = "TimeToLoadMyPage",
@@ -29,42 +31,42 @@ namespace AspNetCoreWebApplication.Controllers
             //DateTime dateTime1 = DateTime.Now;
 
 
-            //test();
+                //test();
 
-            //ViewData["Message"] = "CCCCCCCCCCCCCCCCCCC" ; // sb.ToString();;
-            //TempData["piValue"] = 3.14;
-            //DateTime dateTime2 = DateTime.Now;
-            //TimeSpan diff = dateTime1 - dateTime2;
+                //ViewData["Message"] = "CCCCCCCCCCCCCCCCCCC" ; // sb.ToString();;
+                //TempData["piValue"] = 3.14;
+                //DateTime dateTime2 = DateTime.Now;
+                //TimeSpan diff = dateTime1 - dateTime2;
 
-            //List<MetricDatum> data = new List<MetricDatum>();
-            //data.Add(new MetricDatum()
-            //{
-            //    MetricName = "TimeToExecute",
-            //    //Timestamp = DateTime.Now,
-            //    Unit = StandardUnit.Milliseconds ,
-            //    Value = diff.Milliseconds 
-                
-            //});
+                //List<MetricDatum> data = new List<MetricDatum>();
+                //data.Add(new MetricDatum()
+                //{
+                //    MetricName = "TimeToExecute",
+                //    //Timestamp = DateTime.Now,
+                //    Unit = StandardUnit.Milliseconds ,
+                //    Value = diff.Milliseconds 
 
-           
+                //});
 
 
-            
-            //using (var cw = new AmazonCloudWatchClient(RegionEndpoint.USEast1))
-            //{
 
-            //    PutMetricDataRequest pReq= new PutMetricDataRequest()
-            //    {
 
-            //        MetricData = data,
-            //        Namespace = "Custom/SlowDownCounter"
-            //    };
 
-            //    Task<PutMetricDataResponse> t =  cw.PutMetricDataAsync(pReq);
-            //    t.Wait();
-            //}
+                //using (var cw = new AmazonCloudWatchClient(RegionEndpoint.USEast1))
+                //{
 
-             }
+                //    PutMetricDataRequest pReq= new PutMetricDataRequest()
+                //    {
+
+                //        MetricData = data,
+                //        Namespace = "Custom/SlowDownCounter"
+                //    };
+
+                //    Task<PutMetricDataResponse> t =  cw.PutMetricDataAsync(pReq);
+                //    t.Wait();
+                //}
+
+            }
             catch (Exception e)
             {
 
